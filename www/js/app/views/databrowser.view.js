@@ -22,7 +22,7 @@ App.View.DatabrowserView = App.View.BaseView.extend({
     } else {
       $fh.cloud({path:'saveData', data: {collection: 'Users', 'document': {username: username}}}, function(res){
         if(res && res.status === 'ok'){
-          this.hideError();
+          self.hideError();
           self.dataSaved();
         } else {
           self.dataError('Server error');
