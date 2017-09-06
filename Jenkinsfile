@@ -14,7 +14,7 @@ CODE_SIGN_PROFILE_ID = params?.BUILD_CREDENTIAL_ID?.trim()   // e.g. "redhat-dis
 
 // sample values commented below are for https://github.com/feedhenry-templates/sync-cordova-app
 /* ------------- use these to hardcode values in Jenkinsfile ---------------- */
-PROJECT_NAME = "Sync"
+PROJECT_NAME = "Welcome"
 CLEAN = true                          // Do a clean build and sign
 INFO_PLIST = "${PROJECT_NAME}/${PROJECT_NAME}-Info.plist"
 VERSION = "1.0.0"
